@@ -39,7 +39,7 @@ def relogin():
     print("\nis Dashboard : {}".format(is_dashboard))
 
     if is_dashboard == True :
-        navbar.tap_feature_menu()
+        navbar.tap_profile_menu()
         feature_menu.tap_header(user_name="John Doe")
         util.swipe_to_bottom(target_element=user_profile.loc_logout_id)
         user_profile.tap_logout()

@@ -9,7 +9,7 @@ import pytest
 class ForgotPassword():
 
 
-    loc_email_xpath = '//XCUIElementTypeApplication[@name="Hub3c"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTextField'
+    loc_email_xpath = '/XCUIElementTypeApplication[@name="Mentifi"]/XCUIElementTypeWindow[1]/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeOther/XCUIElementTypeTextField/XCUIElementTypeTextField'
     loc_reset_btn_id = "Get Reset Link"
     loc_message_warning_xpath = '//XCUIElementTypeOther[@name="SCLAlertView"]/XCUIElementTypeOther/XCUIElementTypeOther[2]/XCUIElementTypeTextView'
     value_success = 'Your reset email is processed please check your e-mail'
